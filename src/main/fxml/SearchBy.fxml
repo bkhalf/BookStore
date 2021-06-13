@@ -11,9 +11,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="471.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="471.0" prefWidth="714.0" style="-fx-background-color: #383838;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <GridPane layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="714.0" style="-fx-background-color: #000;">
+      <GridPane layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="714.0" style="-fx-background-color: #383838;">
          <padding>
             <Insets bottom="40" left="40" right="40" top="40" />
          </padding>
@@ -23,18 +23,18 @@
             <ColumnConstraints halignment="RIGHT" maxWidth="Infinity" minWidth="100.0" prefWidth="129.39999999999998" />
          </columnConstraints>
          <children>
-            <Label style="-fx-background-color: #000;" text="Title" textFill="WHITE" />
+            <Label text="Title" textFill="WHITE" />
             <TextField fx:id="Title" onKeyReleased="#Has_value" prefHeight="33.0" prefWidth="447.0" promptText="Title" GridPane.columnIndex="1" />
-            <Label style="-fx-background-color: #000;" text="Author" textFill="WHITE" GridPane.rowIndex="2" />
-            <Label style="-fx-background-color: #000;" text="Publisher" textFill="WHITE" GridPane.rowIndex="4" />
-            <TextField fx:id="Publisher" onKeyReleased="#Has_value" prefHeight="40" promptText="Publisher" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Label prefHeight="17.0" prefWidth="106.0" style="-fx-background-color: #000;" text="Selling price" textFill="WHITE" GridPane.rowIndex="6" />
+            <Label text="Author" textFill="WHITE" GridPane.rowIndex="2" />
+            <Label text="Publisher" textFill="WHITE" GridPane.rowIndex="4" />
+            <TextField fx:id="Publisher" onKeyReleased="#Has_value" prefHeight="21.0" prefWidth="398.0" promptText="Publisher" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label prefHeight="17.0" prefWidth="106.0" text="Selling price" textFill="WHITE" GridPane.rowIndex="6" />
             <TextField fx:id="SellingPrice" onKeyReleased="#priceCheckAction" prefHeight="40.0" promptText="Selling price" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <Text fx:id="SellingPriceError" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="error: please enter number" visible="false" wrappingWidth="219.93670654296875" GridPane.columnIndex="1" GridPane.rowIndex="14" />
             <Text fx:id="PublicationYearError" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="error: please enter number" visible="false" wrappingWidth="219.93670654296875" GridPane.columnIndex="1" GridPane.rowIndex="11" />
             <ComboBox fx:id="Category" onAction="#categoryCheckAction" prefHeight="31.0" prefWidth="447.0" promptText="Category" GridPane.columnIndex="1" GridPane.rowIndex="8" />
             <Button fx:id="OK" mnemonicParsing="false" onAction="#okAction" prefHeight="31.0" prefWidth="422.0" text="OK" GridPane.columnIndex="1" GridPane.rowIndex="13" />
-            <TextField fx:id="Author" onKeyReleased="#Has_value" prefHeight="33.0" prefWidth="447.0" promptText="Author" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="Author" onKeyReleased="#Has_value" prefHeight="28.0" prefWidth="398.0" promptText="Author" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
          <rowConstraints>
             <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
