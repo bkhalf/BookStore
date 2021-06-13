@@ -11,7 +11,7 @@ public class DBConnector {
 	private static String password;
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/book_store";
 	private static final String DB_USER_NAME = "root";
-	private static final String DB_PASS = "012345678";
+	private static final String DB_PASS = "root";
 
 	public static DBConnector getInstance() {
 		if (instance == null) {

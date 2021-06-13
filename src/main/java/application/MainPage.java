@@ -166,8 +166,6 @@ public class MainPage {
 						dateCheck = false;
 					}
 				} catch (ParseException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
 				}
 
 			} else {
@@ -186,6 +184,7 @@ public class MainPage {
 		dialog.setResultConverter(dialogButton -> {
 			if (dialogButton == OK) {
 				ParentPane.getChildren().remove(0);
+				ParentPane.getChildren().clear();
 				CheckOut.setVisible(false);
 				DBConnector.getInstance().checkOut(PassValues.getBookCartISBN());
 				PassValues.clearAllCart();
@@ -208,29 +207,13 @@ public class MainPage {
 	}
 
 	private static boolean checkLuhn(String cardNo) {
-		int[] ints = new int[cardNo.length()];
-		for (int i = 0; i < cardNo.length(); i++) {
-			ints[i] = Integer.parseInt(cardNo.substring(i, i + 1));
-		}
-		for (int i = ints.length - 2; i >= 0; i = i - 2) {
-			int j = ints[i];
-			j = j * 2;
-			if (j > 9) {
-				j = j % 10 + 1;
-			}
-			ints[i] = j;
-		}
-		int sum = 0;
-		for (int i = 0; i < ints.length; i++) {
-			sum += ints[i];
-		}
-		return (sum % 10 == 0);
+		return ( cardNo.length() == 16 );
 
 	}
 
 	@FXML
 	public void initialize() {
-		userName.setText("Hi, " + PassValues.getUserName());
+		userName.setText("Welcome " + PassValues.getUserName() + " To BookStore");
 
 	}
 

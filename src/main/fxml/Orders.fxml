@@ -62,14 +62,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID0" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN0" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID0" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN0" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm0" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity0" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date0" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity0" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date0" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -87,14 +87,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID1" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN1" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID1" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN1" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm1" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity1" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date1" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity1" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date1" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -112,14 +112,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID2" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN2" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID2" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN2" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm2" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity2" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date2" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity2" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date2" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -137,14 +137,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID3" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN3" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID3" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN3" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm3" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity3" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date3" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity3" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date3" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -162,14 +162,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID4" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN4" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID4" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN4" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm4" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity4" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date4" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity4" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date4" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="738.0" />
@@ -187,14 +187,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID5" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN5" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID5" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN5" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm5" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity5" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date5" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity5" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date5" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -212,14 +212,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID6" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN6" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID6" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN6" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm6" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity6" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date6" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity6" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date6" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -237,14 +237,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID7" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN7" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID7" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN7" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm7" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity7" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date7" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity7" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date7" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -262,14 +262,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID8" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN8" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID8" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN8" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm8" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity8" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date8" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity8" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date8" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
@@ -287,14 +287,14 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <Label fx:id="ID9" prefHeight="18.0" prefWidth="160.0" />
-                  <Label fx:id="ISBN9" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="1" />
+                  <Label fx:id="ID9" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" />
+                  <Label fx:id="ISBN9" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="1" />
                   <Button fx:id="Confirm9" mnemonicParsing="false" onAction="#confirmAction" prefHeight="26.0" prefWidth="152.0" style="-fx-background-color: #28a745;" text="Confirm" textFill="WHITE" GridPane.columnIndex="4">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
-                  <Label fx:id="Quantity9" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="2" />
-                  <Label fx:id="Date9" prefHeight="18.0" prefWidth="160.0" GridPane.columnIndex="3" />
+                  <Label fx:id="Quantity9" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="2" />
+                  <Label fx:id="Date9" prefHeight="18.0" prefWidth="160.0" textFill="WHITE" GridPane.columnIndex="3" />
                </children>
             </GridPane>
             <Pane prefHeight="20.0" prefWidth="655.0" />
