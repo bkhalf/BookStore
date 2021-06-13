@@ -11,7 +11,7 @@ public class DBConnector {
 	private static String password;
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/book_store";
 	private static final String DB_USER_NAME = "root";
-	private static final String DB_PASS = "root";
+	private static final String DB_PASS = "012345678";
 
 	public static DBConnector getInstance() {
 		if (instance == null) {
@@ -201,7 +201,7 @@ public class DBConnector {
 	}
 
 
-	public void addBook(String isbn, String title, String pname, String pyear, String category, String price,
+	public void addBook(String isbn, String title, String pname, String category, String price,
 						String threashold, String availableCopies, String orderQuantity, List<String> authors) {
 		try {
 			if (connect == null) {
@@ -313,7 +313,7 @@ public class DBConnector {
 		}
 	}
 
-	public void modifybook(String isbn, String title, String pname, String pyear, String category, String price,
+	public void modifybook(String isbn, String title, String pname, String category, String price,
 						   String threashold, String orderQuantity, List<String> authors) {
 		try {
 			if (connect == null) {
