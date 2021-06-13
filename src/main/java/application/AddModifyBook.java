@@ -51,7 +51,7 @@ public class AddModifyBook extends Pane {
 
 
 	@FXML
-	private TextField price , pname , pyear , threshold  , title , isbn  ;
+	private TextField price , pname ,  threshold  , title , isbn  ;
 
 
 
@@ -95,7 +95,7 @@ public class AddModifyBook extends Pane {
 		DBConnector db = DBConnector.getInstance();
 
 		if (isbn.getText().isEmpty() || title.getText().isEmpty() || pname.getText().isEmpty()
-				|| pyear.getText().isEmpty() || category.getSelectionModel().isEmpty() || price.getText().isEmpty()
+				|| category.getSelectionModel().isEmpty() || price.getText().isEmpty()
 				|| threshold.getText().isEmpty() || copies.getText().isEmpty() || orderQ.getText().isEmpty()
 				|| Authors.getText().isEmpty()) {
 
@@ -112,7 +112,7 @@ public class AddModifyBook extends Pane {
 		}
 		if (db.publisherExists(pname.getText())) {
 			if (!db.Search_book(isbn.getText())) {
-				db.addBook(isbn.getText(), title.getText(), pname.getText(), pyear.getText(),
+				db.addBook(isbn.getText(), title.getText(), pname.getText(),
 						category.getSelectionModel().getSelectedItem().toString(), price.getText(), threshold.getText(),
 						copies.getText(), orderQ.getText(), authors);
 			} else {
@@ -160,7 +160,7 @@ public class AddModifyBook extends Pane {
 			return;
 		} else {
 			if (isbn.getText().isEmpty() || title.getText().isEmpty() || pname.getText().isEmpty()
-					|| pyear.getText().isEmpty() || category.getSelectionModel().isEmpty() || price.getText().isEmpty()
+					 || category.getSelectionModel().isEmpty() || price.getText().isEmpty()
 					|| threshold.getText().isEmpty() || orderQ.getText().isEmpty() || Authors.getText().isEmpty()) {
 				error.setText("ERROR: Please enter missed data");
 				return;
@@ -173,7 +173,7 @@ public class AddModifyBook extends Pane {
 				for (String line : Authors.getText().split("\\n")) {
 					authors.add(line);
 				}
-				db.modifybook(isbn.getText(), title.getText(), pname.getText(), pyear.getText(),
+				db.modifybook(isbn.getText(), title.getText(), pname.getText(),
 						category.getSelectionModel().getSelectedItem().toString(), price.getText(), threshold.getText(),
 						orderQ.getText(), authors);
 			}
